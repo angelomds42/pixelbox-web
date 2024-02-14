@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: whitesmoke;
+  background: whitesmoke;
+  margin: auto;
+  font-size: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 900px;
+  padding: 0px;
+  margin: 10px auto;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+}
+
+.navbar_logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar_title {
+  color: #1b1b1b;
+  font-family: "Sarala", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+.navbar_logo img {
+  height: 60px;
+}
+
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.navbar_menu_text {
+  font-family: "Sarala", sans-serif;
+  text-decoration: none;
+  position: relative;
+  color: #1b1b1b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.navbar_menu_text::after{
+  content: "";
+  position: absolute;
+  background-color: #01677E;
+  bottom: -10px;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  transition: 0.3s ease;
+}
+
+.navbar_menu_text:hover::after{
+  width: 100%;
+}
+
+
+.navbar_botton:hover {
+  background-color: #6f838d;
+}
+
+.navbar_botton a {
+  color: #1b1b1b;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
