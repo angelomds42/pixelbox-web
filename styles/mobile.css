@@ -1,0 +1,49 @@
+@media screen and (max-width: 800px) {
+    .navbar_border {
+        display: flex;
+        padding: 3% 5% 1%;;
+        width: 20%;
+        max-width: 100px;
+        margin: 5% 5% 3%;
+        background-color: #5d3c73;
+        border-radius: 50px;
+        box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
+      }
+    
+      
+  .monet_01 {
+    width: 100%;
+  }
+
+  .monet_02 {
+    width: 100%;
+    top: 470%;
+    left: 50%;
+  }
+
+
+  .section_container {
+    margin: 35% 5% 35%;
+  }
+
+  .sub_container {
+    justify-content: right;
+  }
+
+  .section-01_title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .section-01_simple_text {
+    font-size: 1rem;
+  }
+  .section-01_banner,
+  .navbar_menu, .navbar_menu_text {
+    display: none;
+  }
+
+  .footer{
+    padding: 5% 5% 10%;
+  }
+}
