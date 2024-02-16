@@ -1,5 +1,5 @@
 @media screen and (max-width: 800px) {
-    .navbar_border {
+    .navbar {
         display: grid;
         place-items: center;
         padding:5%;
@@ -10,7 +10,6 @@
         border-radius: 50px;
         box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
       }
-
     
   .monet_01 {
     width: 100%;
@@ -24,7 +23,7 @@
 
 
   .section_container {
-    margin: 35% 5% 35%;
+    margin-inline: 30px;
   }
 
   .sub_container {

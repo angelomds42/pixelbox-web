@@ -4,7 +4,6 @@
   margin: auto;
   justify-content: space-around;
   align-items: center;
-  max-width: 50%;
   max-width: 800px;
 }
 
@@ -29,7 +28,7 @@
   font-size: 1.5rem;
 }
 
-.section_botton{
+.section_botton {
   width: 200px;
   display: grid;
   place-items: center;
@@ -37,9 +36,6 @@
   padding: 15px 30px;
   background-color: #5D3C73;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.582);
-}
-
-.section_botton_text {
   text-decoration: none;
   color: #D3B9E0;
   font-family: "Poppins", sans-serif;

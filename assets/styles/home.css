@@ -15,40 +15,37 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: auto;
   min-height: 100vh;
   overflow: hidden;
-  max-width: 3000px;
-}
-
-.sub_container {
-  display: flex;
+  max-width: 2200px;
   position: relative;
+  gap: 50px;
 }
 
 @media screen and (min-width: 800px) {
-  .navbar_border {
+  .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 1% 5%;
     flex-direction: row;
     width: 70%;
     max-width: 1100px;
-    margin: 5% auto 3%;
+    margin: 5% auto;
     background-color: #5d3c73;
     border-radius: 50px;
     box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
   }
 }
 
-.navbar_icon {
+.navbar_pixelbox_icon {
   height: 40px;
   width: 40px;
   background-image: url(../img/pixelboxicon.png);
   background-size: 100% 100%;
 }
-
 
 .navbar_menu {
   display: flex;
@@ -122,14 +119,12 @@ body {
 }
 
 .footer {
-  margin: auto;
-  max-width: 1100px;
-  padding-top: 20%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   font-size: 1rem;
+  padding: 5%;
 }
 
 .footer_profile_text {
