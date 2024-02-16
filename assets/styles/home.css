@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   color: #d4b8de;
   background: #1f1a20;
@@ -14,8 +15,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  height: auto;
-  width: auto;
   margin: auto;
   min-height: 100vh;
   overflow: hidden;
@@ -28,38 +27,43 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-.navbar_border {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 30px;
-  flex-direction: row;
-  width: 70%;
-  max-width: 1100px;
-  margin: 5% auto 3%;
-  background-color: #5d3c73;
-  border-radius: 50px;
-  box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
+  .navbar_border {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    flex-direction: row;
+    width: 70%;
+    max-width: 1100px;
+    margin: 5% auto 3%;
+    background-color: #5d3c73;
+    border-radius: 50px;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
+  }
 }
-}
+
 .navbar_icon {
   height: 40px;
+  width: 40px;
+  background-image: url(../img/pixelboxicon.png);
+  background-size: 100% 100%;
 }
+
 
 .navbar_menu {
   display: flex;
   align-items: center;
   gap: 50px;
 }
+
 .navbar_menu_text {
-  font-family: "Sarala", sans-serif;
   text-decoration: none;
-  position: relative;
   color: #d4b8de;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 1rem;
+  padding: 1rem;
 }
 
 .navbar_menu_text::after {
@@ -81,6 +85,7 @@ body {
   0% {
     transform: rotateZ(0deg) translateX(0px) scale(1);
   }
+
   100% {
     transform: rotateZ(360deg) translateX(50px) scale(1.1);
   }
@@ -100,6 +105,7 @@ body {
   0% {
     transform: rotateZ(0deg) translateX(0px) scale(1);
   }
+
   100% {
     transform: rotateZ(360deg) translateX(50px) scale(1.1);
   }

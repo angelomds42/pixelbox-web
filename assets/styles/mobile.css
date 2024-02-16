@@ -1,16 +1,17 @@
 @media screen and (max-width: 800px) {
     .navbar_border {
-        display: flex;
-        padding: 3% 5% 1%;;
-        width: 20%;
-        max-width: 100px;
+        display: grid;
+        place-items: center;
+        padding:5%;
+        width: 100px;
+        height: 100px;
         margin: 5% 5% 3%;
         background-color: #5d3c73;
         border-radius: 50px;
         box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
       }
+
     
-      
   .monet_01 {
     width: 100%;
   }
@@ -30,15 +31,15 @@
     justify-content: right;
   }
 
-  .section-01_title {
+  .section_title {
     font-size: 3rem;
     line-height: 3rem;
   }
 
-  .section-01_simple_text {
+  .section_simple_text {
     font-size: 1rem;
   }
-  .section-01_banner,
+  .section_banner,
   .navbar_menu, .navbar_menu_text {
     display: none;
   }
