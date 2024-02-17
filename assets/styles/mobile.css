@@ -1,26 +1,14 @@
 @media screen and (max-width: 800px) {
-    .navbar {
-        display: grid;
-        place-items: center;
-        padding:5%;
-        width: 100px;
-        height: 100px;
-        margin: 5% 5% 3%;
-        background-color: #5d3c73;
-        border-radius: 50px;
-        box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
-      }
-    
+  
   .monet_01 {
     width: 100%;
   }
 
   .monet_02 {
     width: 100%;
-    top: 470%;
+    top: 70%;
     left: 50%;
   }
-
 
   .section_container {
     margin-inline: 30px;
@@ -36,14 +24,14 @@
   }
 
   .section_simple_text {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
-  .section_banner,
-  .navbar_menu, .navbar_menu_text {
+  .section_banner {
     display: none;
   }
 
-  .footer{
+  .footer {
     padding: 5% 5% 10%;
   }
 }

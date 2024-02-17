@@ -18,64 +18,10 @@ body {
   justify-content: space-between;
   margin: auto;
   min-height: 100vh;
-  overflow: hidden;
   max-width: 2200px;
   position: relative;
   gap: 50px;
-}
-
-@media screen and (min-width: 800px) {
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1% 5%;
-    flex-direction: row;
-    width: 70%;
-    max-width: 1100px;
-    margin: 5% auto;
-    background-color: #5d3c73;
-    border-radius: 50px;
-    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.925);
-  }
-}
-
-.navbar_pixelbox_icon {
-  height: 40px;
-  width: 40px;
-  background-image: url(../img/pixelboxicon.png);
-  background-size: 100% 100%;
-}
-
-.navbar_menu {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.navbar_menu_text {
-  text-decoration: none;
-  color: #d4b8de;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1rem;
-  padding: 1rem;
-}
-
-.navbar_menu_text::after {
-  content: "";
-  position: absolute;
-  background-color: #cfb9de;
-  bottom: -10px;
-  left: 0;
-  height: 3px;
-  width: 0%;
-  transition: 0.3s ease;
-}
-
-.navbar_menu_text:hover::after {
-  width: 100%;
+  overflow: hidden;
 }
 
 @keyframes monet_01 {

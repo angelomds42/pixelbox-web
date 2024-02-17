@@ -1,0 +1,128 @@
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar_button {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    place-items: flex-end;
+    padding: 5%;
+    gap: 5%;
+    right: -30%;
+    width: 85px;
+    height: 85px;
+    margin: 5% 5% 3%;
+    background-color: #5d3c73;
+    border-radius: 25px;
+    box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.925);
+  }
+
+  .navbar_button::after {
+    content: "";
+    width: 50%;
+    height: 5px;
+    background-color: #fff;
+    transition: 0.4s;
+  }
+
+  .navbar_button::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    transition: 0.4s;
+  }
+
+  .navbar_button.active:before {
+    transform: rotate(-45deg) translate(0px, 5px);
+  }
+
+  .navbar_button.active:after {
+    width: 100%;
+    transform: rotate(45deg) translate(0px, -5px);
+  }
+
+  .navbar_pixelbox_icon {
+    display: none;
+  }
+
+  .navbar_menu {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    max-width: 1100px;
+    background-color: #5d3c73;
+    transform: translateX(100%);
+    transition: 0.3s ease-in;
+    gap: 0;
+  }
+
+  .navbar_menu.active {
+    transform: translateX(0);
+  }
+
+  .navbar_menu_text {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 5%;
+    flex-direction: row;
+    width: 70%;
+    max-width: 1100px;
+    margin: 5% auto;
+    background-color: #5d3c73;
+    border-radius: 50px;
+    box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.925);
+  }
+}
+
+.navbar_pixelbox_icon {
+  height: 50px;
+  width: 40px;
+  background-image: url(../img/pixelboxicon.png);
+  background-size: 100% 100%;
+}
+
+.navbar_menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar_menu_text {
+  display: grid;
+  align-items: end;
+  position: relative;
+  text-decoration: none;
+  color: #d4b8de;
+  padding: 5px;
+}
+
+.navbar_menu_text::after {
+  content: "";
+  position: absolute;
+  background-color: #cfb9de;
+  height: 5%;
+  width: 0%;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.navbar_menu_text:hover::after {
+  width: 100%;
+  opacity: 1;
+}
