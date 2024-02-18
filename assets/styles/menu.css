@@ -5,14 +5,11 @@
   }
 
   .navbar_button {
-    display: flex;
+    display: grid;
     z-index: 1;
     position: relative;
     flex-direction: column;
-    justify-content: center;
-    place-items: flex-end;
-    padding: 5%;
-    gap: 5%;
+    padding: 30px;
     right: -30%;
     width: 85px;
     height: 85px;
@@ -20,11 +17,13 @@
     background-color: #5d3c73;
     border-radius: 25px;
     box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.925);
+    justify-items: end;
+    justify-content: center;
   }
 
   .navbar_button::after {
     content: "";
-    width: 50%;
+    width: 20px;
     height: 5px;
     background-color: #fff;
     transition: 0.4s;
@@ -32,7 +31,7 @@
 
   .navbar_button::before {
     content: "";
-    width: 100%;
+    width: 40px;
     height: 5px;
     background-color: #fff;
     transition: 0.4s;
@@ -52,8 +51,10 @@
   }
 
   .navbar_menu {
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    gap: 50px;
+    place-items: center;
+    align-content: center;
     position: absolute;
     width: 100vh;
     height: 100vh;
@@ -61,7 +62,6 @@
     background-color: #5d3c73;
     transform: translateX(100%);
     transition: 0.3s ease-in;
-    gap: 0;
   }
 
   .navbar_menu.active {
@@ -71,6 +71,7 @@
   .navbar_menu_text {
     font-size: 2rem;
   }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -87,7 +88,16 @@
     background-color: #5d3c73;
     border-radius: 50px;
     box-shadow: 3px 5px 20px -5px rgba(0, 0, 0, 0.925);
+
+    
   }
+
+  .navbar_menu {
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+  }
+
 }
 
 .navbar_pixelbox_icon {
@@ -97,15 +107,10 @@
   background-size: 100% 100%;
 }
 
-.navbar_menu {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
 
 .navbar_menu_text {
   display: grid;
-  align-items: end;
+  align-items: flex-end;
   position: relative;
   text-decoration: none;
   color: #d4b8de;
@@ -119,6 +124,7 @@
   height: 5%;
   width: 0%;
   transition: 0.3s;
+  border-radius: 10px;
   opacity: 0;
 }
 
@@ -126,3 +132,13 @@
   width: 100%;
   opacity: 1;
 }
+
+.page_indicator {
+  content: "";
+  position: absolute;
+  background-color: #cfb9de;
+  border-radius: 10px;
+  width: 55px;
+  height: 5%;
+  transition: 0.3s;
+  }
