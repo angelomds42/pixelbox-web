@@ -5,8 +5,8 @@
 }
 
 body {
-  color: #d4b8de;
-  background: #1f1a20;
+  color: #074686;
+  background: #E4F2FF;
   font-size: 100%;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -74,5 +74,5 @@ body {
 }
 
 .footer_profile_text {
-  color: #d4b8de;
+  color: #074686;
 }

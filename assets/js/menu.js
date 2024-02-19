@@ -7,7 +7,7 @@ menuicon.addEventListener("click", () => {
     menumobile.classList.toggle("active");
 });
 
-var tabs_indicator = document.querySelector('.teste');
+var tabs_indicator = document.querySelector('.page_indicator');
 
 var item = document.querySelectorAll('.navbar_menu_text');
 
