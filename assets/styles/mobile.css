@@ -1,5 +1,4 @@
 @media screen and (max-width: 800px) {
-  
   .monet_01 {
     width: 100%;
   }
@@ -10,7 +9,7 @@
     left: 50%;
   }
 
-  .section_container {
+  .section-01_container {
     margin-inline: 30px;
   }
 
@@ -18,16 +17,16 @@
     justify-content: right;
   }
 
-  .section_title {
+  .section-01_title {
     font-size: 3rem;
     line-height: 3rem;
   }
 
-  .section_simple_text {
+  .section-01_simple_text {
     font-size: 1.3rem;
     line-height: 2rem;
   }
-  .section_banner {
+  .section-01_banner {
     display: none;
   }
 

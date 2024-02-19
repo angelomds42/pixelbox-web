@@ -1,66 +1,211 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixelBox</title>
+    <link rel="stylesheet" href="assets/styles/section.css" />
+    <link rel="stylesheet" href="assets/styles/section-02.css" />
+    <link rel="stylesheet" href="assets/styles/mobile.css" />
+    <link rel="stylesheet" href="assets/styles/home.css" />
+    <link rel="stylesheet" href="assets/styles/menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="assets/img/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/img/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/img/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/img/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/img/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/img/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="assets/img/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarala:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PixelBox</title>
-  <link rel="stylesheet" href="assets/styles/section.css" />
-  <link rel="stylesheet" href="assets/styles/mobile.css" />
-  <link rel="stylesheet" href="assets/styles/home.css" />
-  <link rel="stylesheet" href="assets/styles/menu.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarala:wght@400;700&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <div class="container">
-    <img class="monet_01" src="assets/img/monet1.png" alt="" />
-    <img class="monet_02" src="assets/img/monet2.png" alt="" />
-    <div class="navbar">
-      <div class="navbar_button">
+  <body>
+    <div class="container home_animation">
+      <img class="monet_01" src="assets/img/monet1.png" alt="" />
+      <img class="monet_02" src="assets/img/monet2.png" alt="" />
+      <div class="navbar">
+        <div class="navbar_button"></div>
         <div class="navbar_pixelbox_icon" alt="icon"></div>
+        <div class="navbar_menu">
+          <a
+            class="navbar_menu_text"
+            data-tab="section-01_container"
+            onclick="selectAndShow(this,'section-01_container')"
+            >Download
+          </a>
+          <a
+            class="navbar_menu_text"
+            data-tab="section-02_container"
+            onclick="selectAndShow(this,'section-02_container')"
+            >Features
+          </a>
+          <a
+            class="navbar_menu_text"
+            href="a"
+            target="_blank"
+            rel="external"
+            data-tab="section-03_container"
+            onclick="selectAndShow(this,'section-03_container')"
+            >Suporte</a
+          >
+          <a
+            class="navbar_menu_text"
+            href="a"
+            rel="next"
+            data-tab="section-04_container"
+            onclick="selectAndShow(this,'section-04_container')"
+            >Download</a
+          >
+        </div>
       </div>
-      <div class="navbar_menu">
-        <a class="navbar_menu_text" href="/" target="_blank">Home
-        </a>
-        <a class="navbar_menu_text" href="https://t.me/PixelBoxClub" target="_blank" rel="external">Suporte
-        </a>
-        <a class="navbar_menu_text" href="a" target="_blank" rel="external">Imagens</a>
-        <a class="navbar_menu_text" href="a" rel="next">Download</a>
-        <div class="page_indicator"></div>
+      <div class="section_animation conteudo section-01_container">
+        <div class="section-01_text_container">
+          <h2 class="section-01_title">
+            Meet <br />
+            PixelBox
+          </h2>
+          <p class="section-01_simple_text">
+            A simpler and fast way to find you favorite wallpaper. with uor
+            library of high-quality wallpapers that expand every day!
+          </p>
+          <a class="section-01_botton" href="a">Download</a>
+        </div>
+        <img class="section-01_banner" src="assets/img/phone.png" alt="phone" />
+      </div>
+      <div class="section_animation conteudo section-02_container">
+        <div class="section-02_text_container">
+          <div class="features_container">
+            <span class="material-symbols-outlined"> search </span>
+            <h4 class="section-02_title">Search</h4>
+            <p class="section-02_simple_text">
+              ou can easily find wallpapers with our super comprehensive and
+              functional search filters
+            </p>
+          </div>
+          <div class="features_container">
+            <span class="material-symbols-outlined"> landscape </span>
+            <h4 class="section-02_title">Wallpapers</h4>
+            <p class="section-02_simple_text">
+              A library of high-quality wallpapers, featuring various styles and
+              high image quality.
+            </p>
+          </div>
+          <div class="features_container">
+            <span class="material-symbols-outlined"> android </span>
+            <h4 class="section-02_title">Compatibility</h4>
+            <p class="section-02_simple_text">
+              Compatible with the latest versions of Android, from Android 12 to
+              Android 14.
+            </p>
+          </div>
+          <div class="features_container">
+            <span class="material-symbols-outlined"> translate </span>
+            <h4 class="section-02_title">Languages</h4>
+            <p class="section-02_simple_text">
+              PixelBox is currently available in 3 languages: Portuguese,
+              English, and Spanish.
+            </p>
+          </div>
+          <div class="features_container">
+            <span class="material-symbols-outlined"> smartphone </span>
+            <h4 class="section-02_title">Utility</h4>
+            <p class="section-02_simple_text">
+              Easy to use with a simple and intuitive user interface.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <span
+          >Site feito por
+          <a
+            class="footer_profile_text"
+            href="https://github.com/angelomds42"
+            target="_blank"
+            rel="external"
+            >angelomds42</a
+          >
+        </span>
+        <div>
+          <a
+            href="https://github.com/angelomds42"
+            target="_blank"
+            rel="external"
+          >
+            <img src="assets/img/githubicon.png" alt="" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="section_container">
-      <div class="section_text_container">
-        <h2 class="section_title">
-          Meet <br />
-          PixelBox
-        </h2>
-        <p class="section_simple_text">
-          A simpler and fast way to find you favorite wallpaper. with uor
-          library of high-quality wallpapers that expand every day!
-        </p>
-        <a class="section_botton" href="a">Download</a>
-      </div>
-      <img class="section_banner" src="assets/img/phone.png" alt="phone" />
-    </div>
-    <div class="footer">
-      <span>Site feito por
-        <a class="footer_profile_text" href="a">angelomds42</a>
-      </span>
-      <div>
-        <a href="a">
-          <img src="assets/img/githubicon.png" alt="" />
-        </a>
-      </div>
-    </div>
-  </div>
-  </div>
-  <script src="assets/js/menu.js"></script>
-</body>
-
+    <script src="assets/js/menu.js"></script>
+    <style>
+      .material-symbols-outlined {
+        font-size: 2.5rem;
+        color: #074686;
+        font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
+      }
+    </style>
+  </body>
 </html>
