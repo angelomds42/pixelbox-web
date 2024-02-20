@@ -33,7 +33,7 @@ body {
 }
 
 .monet_01 {
-  top: -20%;
+  top: -5%;
   left: -25%;
   animation: fadeIn 3s ease-in-out,
     rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
@@ -44,7 +44,7 @@ body {
 }
 
 .monet_02 {
-  bottom: -40%;
+  bottom: -5%;
   right: -25%;
   animation: fadeIn 3s ease-in-out,
     rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
