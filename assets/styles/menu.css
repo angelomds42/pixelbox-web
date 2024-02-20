@@ -59,7 +59,7 @@
     margin: 5% auto;
     background-color: #aad3ff9a;
     border-radius: 50px;
-    box-shadow: 3px 5px 10px -5px rgba(0, 0, 0, 0.925);
+    box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.925);
   }
 }
 
@@ -80,7 +80,7 @@
     margin: 5% 5% 3%;
     background-color: #cfe5fd;
     border-radius: 25px;
-    box-shadow: 3px 5px 10px -5px rgba(0, 0, 0, 0.925);
+    box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.925);
     justify-items: end;
     justify-content: center;
   }

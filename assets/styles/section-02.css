@@ -21,7 +21,7 @@
   display: grid;
   place-items: center;
   background-color: #c6e1ff9a;
-  box-shadow: 3px 5px 10px -5px rgba(0, 0, 0, 0.925);
+  box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.925);
   border-radius: 50px;
   padding: 20px;
   max-width: 40vh;
