@@ -15,6 +15,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
+  line-height: 2rem;
 }
 
 .features_container {
