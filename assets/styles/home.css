@@ -48,7 +48,7 @@ body {
   right: -25%;
   animation: fadeIn 3s ease-in-out,
     rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
-  max-width: 1100px;
+  max-width: 100vh;
   position: absolute;
   z-index: -1;
   transform: scale(1);
