@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/styles/mobile.css" />
     <link rel="stylesheet" href="assets/styles/home.css" />
     <link rel="stylesheet" href="assets/styles/menu.css" />
+    <link rel="stylesheet" href="assets/styles/section-03.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -85,6 +86,7 @@
     <div class="container home_animation">
       <img class="monet_01" src="assets/img/monet1.png" alt="" />
       <img class="monet_02" src="assets/img/monet2.png" alt="" />
+      <img class="monet_03" src="assets/img/monet3.png" alt="" />
       <div class="navbar">
         <div class="navbar_button"></div>
         <div class="navbar_pixelbox_icon" alt="icon"></div>
@@ -103,9 +105,8 @@
           </a>
           <a
             class="navbar_menu_text"
-            href="https://t.me/PixelBoxClub"
-            target="_blank"
-            rel="external"
+            data-tab="section-03_container"
+            onclick="selectAndShow(this,'section-03_container')"
             >Suporte</a
           >
         </div>
@@ -167,15 +168,28 @@
           </div>
         </div>
       </div>
+      <div class="section_animation conteudo section-03_container">
+        <div class="section-03_text_container">
+          <h2 class="section-03_title">
+            Welcome to our support section!
+          </h2>
+          <p class="section-03_simple_text">
+          We're here to assist with bugs, gather suggestions, and enhance your wallpaper experience. Reach out via Telegram for instant feedback. Thank you for being part of our community!
+          </p>
+        </div>
+        <div class="section_03_bottons_container">
+        <a class="section-03_botton" href="a">Source</a>
+        <a class="section-03_botton" href="a">Suport</a></div>
+      </div>
       <div class="footer">
         <span
-          >Site feito por
+          >Site made by
           <a
             class="footer_profile_text"
             href="https://github.com/angelomds42"
             target="_blank"
             rel="external"
-            >angelomds42</a
+            >angeloxzs</a
           >
         </span>
         <div>
@@ -190,12 +204,5 @@
       </div>
     </div>
     <script src="assets/js/menu.js"></script>
-    <style>
-      .material-symbols-outlined {
-        font-size: 2.5rem;
-        color: #074686;
-        font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
-      }
-    </style>
   </body>
 </html>

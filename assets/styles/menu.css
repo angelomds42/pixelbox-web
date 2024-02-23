@@ -33,7 +33,7 @@
   align-items: flex-end;
   position: relative;
   text-decoration: none;
-  color: #074686;
+  color: #28537e;
   padding: 5px;
 }
 
@@ -44,7 +44,7 @@
 .navbar_menu_text.selected::after {
   content: "";
   position: absolute;
-  background-color: #074686;
+  background-color: #28537e;
   height: 10%;
   width: 100%;
   transition: 0.3s ease-in;
@@ -57,7 +57,7 @@
     width: 70%;
     max-width: 1100px;
     margin: 5% auto;
-    background-color: #aad3ff9a;
+    background-color: #cfe5fed8;
     border-radius: 50px;
     box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.925);
   }
@@ -78,7 +78,7 @@
     width: 85px;
     height: 85px;
     margin: 5% 5% 3%;
-    background-color: #cfe5fd;
+    background-color: #cfe5fed8;
     border-radius: 25px;
     box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.925);
     justify-items: end;
@@ -122,7 +122,7 @@
     width: 100vh;
     height: 100vh;
     max-width: 1100px;
-    background-color: #cfe5fd;
+    background-color: #cfe5fe;
     transform: translateX(100%);
     transition: 0.3s ease-in;
   }

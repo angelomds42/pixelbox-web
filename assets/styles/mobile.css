@@ -1,12 +1,35 @@
 @media screen and (max-width: 800px) {
+  
   .monet_01 {
-    width: 100%;
+    top: -15%;
+    left: -25%;
+    animation: fadeIn 3s ease-in-out, rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
+    max-width: 35vh;
+    position: absolute;
+    z-index: -1;
+    transform: scale(1);
   }
-
+  
   .monet_02 {
-    width: 100%;
-    top: 70%;
-    left: 50%;
+    bottom: -10%;
+    left: -10%;
+    animation: fadeIn 3s ease-in-out,
+      rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
+    max-width: 25vh;
+    position: absolute;
+    z-index: -1;
+    transform: scale(1);
+  }
+  
+  .monet_03 {
+    top: 40%;
+    right: -15%;
+    animation: fadeIn 3s ease-in-out,
+      rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
+    max-width: 20vh;
+    position: absolute;
+    z-index: -1;
+    transform: scale(1);
   }
 
   .section-01_container {
