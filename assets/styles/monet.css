@@ -1,0 +1,70 @@
+@keyframes rotateAndTranslate {
+  0% {
+    transform: rotateZ(0deg) translateX(0px) scale(1);
+  }
+
+  100% {
+    transform: rotateZ(360deg) translateX(50px) scale(1.1);
+  }
+}
+
+@keyframes rotateAndTranslate {
+  0% {
+    transform: rotateZ(0deg) translateX(0px) scale(1);
+  }
+
+  100% {
+    transform: rotateZ(360deg) translateX(50px) scale(1.5);
+  }
+}
+
+.monet_01 {
+  top: -15%;
+  left: -15%;
+  animation: fadeIn 3s ease-in-out,
+    rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
+  max-width: 75vh;
+  position: absolute;
+  z-index: -1;
+  transform: scale(1);
+}
+
+.monet_02 {
+  bottom: -10%;
+  right: -10%;
+  animation: fadeIn 3s ease-in-out,
+    rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
+  max-width: 50vh;
+  position: absolute;
+  z-index: -1;
+  transform: scale(1);
+}
+
+.monet_03 {
+  top: -15%;
+  right: -10%;
+  animation: fadeIn 3s ease-in-out,
+    rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
+  max-width: 50vh;
+  position: absolute;
+  z-index: -1;
+  transform: scale(1);
+}
+
+@media screen and (max-width: 800px) {
+  .monet_01 {
+    top: -15%;
+    left: -25%;
+    max-width: 35vh;
+  }
+
+  .monet_02 {
+    max-width: 25vh;
+  }
+
+  .monet_03 {
+    top: 40%;
+    right: -15%;
+    max-width: 20vh;
+  }
+}

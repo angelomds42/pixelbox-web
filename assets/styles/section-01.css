@@ -1,0 +1,14 @@
+.section-01 {
+  flex-direction: row;
+}
+
+.section-01_banner {
+  max-width: 300px;
+  rotate: 350deg;
+}
+
+@media screen and (max-width: 800px) {
+  .section-01_banner {
+    display: none;
+  }
+}
