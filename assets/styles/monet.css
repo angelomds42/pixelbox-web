@@ -23,19 +23,19 @@
   left: -15%;
   animation: fadeIn 3s ease-in-out,
     rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
-  max-width: 75vh;
-  position: absolute;
+  max-width: 60vh;
+  position: fixed;
   z-index: -1;
   transform: scale(1);
 }
 
 .monet_02 {
-  bottom: -10%;
+  bottom: -20%;
   right: -10%;
   animation: fadeIn 3s ease-in-out,
     rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
-  max-width: 50vh;
-  position: absolute;
+  max-width: 40vh;
+  position: fixed;
   z-index: -1;
   transform: scale(1);
 }
@@ -45,8 +45,8 @@
   right: -10%;
   animation: fadeIn 3s ease-in-out,
     rotateAndTranslate 25s ease-in-out 4.25s infinite alternate;
-  max-width: 50vh;
-  position: absolute;
+  max-width: 45vh;
+  position: fixed;
   z-index: -1;
   transform: scale(1);
 }

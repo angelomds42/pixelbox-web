@@ -50,25 +50,8 @@
   width: 100%;
   transition: 0.3s ease-in;
   border-radius: 10px;
-}
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.section_animation {
-  animation: fadeIn 1s ease-in-out;
-}
-
-.home_animation {
-  animation: fadeIn 0.5s ease-in-out;
-}
-
+} 
 @media screen and (min-width: 800px) {
   .navbar {
     margin: 5% auto;

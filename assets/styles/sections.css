@@ -3,6 +3,7 @@
   align-items: center;
   max-width: 900px;
   margin: auto;
+  gap: 2vh;
 }
 
 .section_title {
@@ -12,7 +13,7 @@
 }
 
 .section_simple_text {
-  max-width: 70%;
+  max-width: 80%;
   font-size: 1.5rem;
   line-height: 2.5rem;
 }
@@ -60,6 +61,6 @@
   }
 
   .section_container {
-    margin-inline: 2vh
+    margin-inline: 2vh;
   }
 }
